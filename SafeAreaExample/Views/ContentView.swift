@@ -22,7 +22,6 @@ struct ContentView: View {
                 // Foreground
                 LinearGradient(colors: [.clear, .black], startPoint: .top, endPoint: .bottom)
                     .ignoresSafeArea()
-                    .border(.red)
                     .overlay(alignment: .center) {
                         VStack {
                             

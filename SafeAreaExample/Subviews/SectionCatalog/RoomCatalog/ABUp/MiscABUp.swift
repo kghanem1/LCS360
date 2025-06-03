@@ -21,6 +21,8 @@ struct MiscABUp: View {
                     Image("Misc\(misc)")
                         .resizable()
                         .scaledToFit()
+                    PhotoSphereView()
+                        .edgesIgnoringSafeArea(.all)
                     Divider()
                     Picker("Room", selection: $misc) {
                         Label(" Bryan Jones Theatre", systemImage: "theatermasks.fill").tag(7)

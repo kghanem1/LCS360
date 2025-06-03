@@ -21,6 +21,8 @@
 		0D4870BC2DEF245700DFE143 /* ABUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870BB2DEF245700DFE143 /* ABUp.swift */; };
 		0D4870BD2DEF245700DFE143 /* Room20_37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870B92DEF245700DFE143 /* Room20_37.swift */; };
 		0D4870BE2DEF245700DFE143 /* MiscABUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870BA2DEF245700DFE143 /* MiscABUp.swift */; };
+		0D4870C02DEF811B00DFE143 /* PhotoSphereEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870BF2DEF811900DFE143 /* PhotoSphereEngine.swift */; };
+		0D4870C22DEF813100DFE143 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870C12DEF813100DFE143 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		0D4870B92DEF245700DFE143 /* Room20_37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room20_37.swift; sourceTree = "<group>"; };
 		0D4870BA2DEF245700DFE143 /* MiscABUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscABUp.swift; sourceTree = "<group>"; };
 		0D4870BB2DEF245700DFE143 /* ABUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABUp.swift; sourceTree = "<group>"; };
+		0D4870BF2DEF811900DFE143 /* PhotoSphereEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSphereEngine.swift; sourceTree = "<group>"; };
+		0D4870C12DEF813100DFE143 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		81DE690F2DD385B800315C5A /* SafeAreaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeAreaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				0D1203412DEE257000E7B37D /* ContentView.swift */,
+				0D4870C12DEF813100DFE143 /* SwiftUIView.swift */,
+				0D4870BF2DEF811900DFE143 /* PhotoSphereEngine.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,8 +232,10 @@
 				0D4870BD2DEF245700DFE143 /* Room20_37.swift in Sources */,
 				0D4870BE2DEF245700DFE143 /* MiscABUp.swift in Sources */,
 				0D1203A32DEE344E00E7B37D /* Room1_13.swift in Sources */,
+				0D4870C22DEF813100DFE143 /* SwiftUIView.swift in Sources */,
 				0D1203A42DEE344E00E7B37D /* ABLow.swift in Sources */,
 				0D1203A52DEE344E00E7B37D /* Other.swift in Sources */,
+				0D4870C02DEF811B00DFE143 /* PhotoSphereEngine.swift in Sources */,
 				0D1203A62DEE344E00E7B37D /* SchoolBlock.swift in Sources */,
 				0D1203462DEE257000E7B37D /* SafeAreaExampleApp.swift in Sources */,
 			);

@@ -40,7 +40,7 @@ struct MasterCatalog: View {
                     NavigationLink {
                         Other()
                     } label: {
-                        Label("Other", systemImage: "mappin.circle.fill")
+                        Label("Other - Chapel, Fields, Health Centre, etc. ", systemImage: "mappin.circle.fill")
                             .frame(width: 200)
                         
                     }

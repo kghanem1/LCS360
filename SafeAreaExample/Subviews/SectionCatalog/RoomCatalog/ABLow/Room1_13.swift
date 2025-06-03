@@ -26,6 +26,7 @@ struct Room1_13: View {
                         .opacity(0.6)
                         .colorInvert()
                     Divider()
+                        .colorInvert()
                     Picker("Room", selection: $room) {
                         ForEach(1...13, id: \.self) {
                             Text("Room \($0)")
@@ -34,6 +35,7 @@ struct Room1_13: View {
                     .colorInvert()
                     .pickerStyle(.wheel)
                     Divider()
+                        .colorInvert()
                     Image("Rm\(room)Map")
                         .resizable()
                         .scaledToFit()

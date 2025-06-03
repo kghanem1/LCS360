@@ -8,31 +8,41 @@
 import SwiftUI
 
 struct Room20_37: View {
-    @State private var room = 1
+    @State private var room = 20
     var body: some View {
         NavigationStack{
-            VStack{
-                Text("What room?")
-                    .font(.largeTitle)
-                Image("Rm \(room)")
-                    .resizable()
-                    .scaledToFit()
-                Text("Room \(room)")
-                    .font(.footnote)
-                    .opacity(0.6)
-                Divider()
-                Picker("Room", selection: $room) {
-                    ForEach(20...37, id: \.self) {
-                        Text("Room \($0)")
+            ZStack{
+                Color.lcsGreenTint
+                    .ignoresSafeArea()
+                VStack{
+                    Text("What room?")
+                        .font(.largeTitle)
+                        .colorInvert()
+                    Image("Rm \(room)")
+                        .resizable()
+                        .scaledToFit()
+                    Text("Room \(room)")
+                        .font(.footnote)
+                        .opacity(0.6)
+                        .colorInvert()
+                    Divider()
+                        .colorInvert()
+                    Picker("Room", selection: $room) {
+                        ForEach((20...37).filter { !(24...27).contains($0) }, id: \.self) {
+                            Text("Room \($0)")
+                                .colorInvert()
+                        }
                     }
+                    .pickerStyle(.wheel)
+                    Divider()
+                        .colorInvert()
+                    Image("Rm\(room)Map")
+                        .resizable()
+                        .scaledToFit()
                 }
-                .pickerStyle(.wheel)
-                Divider()
-                Image("Rm\(room)Map")
-                    .resizable()
-                    .scaledToFit()
             }
-        }    }
+        }
+    }
 }
 
 #Preview {

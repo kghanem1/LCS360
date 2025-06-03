@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MiscABUp: View {
-    @State private var misc = 1
+    @State private var misc = 7
     var body: some View {
         NavigationStack{
             ZStack{
@@ -23,12 +23,9 @@ struct MiscABUp: View {
                         .scaledToFit()
                     Divider()
                     Picker("Room", selection: $misc) {
-                        Label(" Gymnasium", systemImage: "figure.volleyball").tag(7)
-                        Label(" SLC", systemImage: "sofa.fill").tag(8)
-                        Label(" Outdoor Courtyard", systemImage: "figure.basketball").tag(9)
-                        Label(" OE Kitchen", systemImage: "stove.fill").tag(10)
-                        Label(" Lower Hadden", systemImage: "person.2.circle.fill").tag(11)
-                        Label(" Bryan Jones Theatre (Backstage)", systemImage: "theatermasks.fill").tag(12)
+                        Label(" Bryan Jones Theatre", systemImage: "theatermasks.fill").tag(7)
+                        Label(" Learning Commons/Library", systemImage: "book.fill").tag(8)
+                        Label(" Upper Hadden Hall", systemImage: "person.2.circle.fill").tag(9)
                     }
                     Divider()
                     Image("MiscMap\(misc)")

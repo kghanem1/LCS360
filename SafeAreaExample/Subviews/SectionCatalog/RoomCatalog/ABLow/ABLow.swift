@@ -31,7 +31,7 @@ struct ABLow: View {
                     .buttonStyle(.borderedProminent)
                     .tint(.lcsGreen)
                     NavigationLink {
-                        Room1_13()
+                        MiscABLow()
                     } label: {
                         Label("Other (Gym, SLC, OE Kitchen, and more)", systemImage: "person.circle.fill")
                             .frame(width: 350)

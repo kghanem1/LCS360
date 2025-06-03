@@ -32,7 +32,7 @@ struct ContentView: View {
                                 .frame(width: 150)
                             
                             NavigationLink {
-                                RedView()
+                                MasterCatalog()
                             } label: {
                                 Label("Map", systemImage: "map")
                                     .frame(width: 200)

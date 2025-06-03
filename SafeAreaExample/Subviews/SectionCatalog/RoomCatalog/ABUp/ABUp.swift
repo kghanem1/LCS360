@@ -1,5 +1,6 @@
 //
-//  MasterCatalog.swift
+//
+//  School Block.swift
 //  SafeAreaExample
 //
 //  Created by Khalid Ghanem on 2025-06-02.
@@ -7,7 +8,7 @@
 
 import SwiftUI
 
-struct MasterCatalog: View {
+struct ABUp: View {
     var body: some View {
         NavigationStack{
             ZStack{
@@ -17,31 +18,22 @@ struct MasterCatalog: View {
                     Text("Where to?")
                         .font(.largeTitle)
                         .colorInvert()
+                    Image("ABUp")
+                        .resizable()
+                        .scaledToFit()
                     NavigationLink {
-                        SchoolBlock()
+                        Room20_37()
                     } label: {
-                        Label("School Block", systemImage: "building.columns.fill")
-                            .frame(width: 200)
-                        
+                        Label("Rooms (20-37)", systemImage: "door.left.hand.closed")
+                            .frame(width: 350)
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(.lcsGreen)
-                    
                     NavigationLink {
-                        Houses()
+                        MiscABUp()
                     } label: {
-                        Label("Houses", systemImage: "house.fill")
-                            .frame(width: 200)
-                        
-                    }
-                    .buttonStyle(.borderedProminent)
-                    .tint(.lcsGreen)
-                    
-                    NavigationLink {
-                        Other()
-                    } label: {
-                        Label("Other", systemImage: "mappin.circle.fill")
-                            .frame(width: 200)
+                        Label("Other (Library, Bryan Jones Theatre, Upper Hadden, and more)", systemImage: "person.circle.fill")
+                            .frame(width: 350)
                         
                     }
                     .buttonStyle(.borderedProminent)
@@ -52,7 +44,6 @@ struct MasterCatalog: View {
     }
 }
 
-
 #Preview {
-    MasterCatalog()
+    ABUp()
 }

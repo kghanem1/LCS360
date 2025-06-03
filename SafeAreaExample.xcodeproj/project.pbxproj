@@ -12,23 +12,15 @@
 		0D1203472DEE257000E7B37D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D12033D2DEE257000E7B37D /* Preview Assets.xcassets */; };
 		0D1203482DEE257000E7B37D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1203402DEE257000E7B37D /* Assets.xcassets */; };
 		0D12034E2DEE26F800E7B37D /* MasterCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12034D2DEE26F800E7B37D /* MasterCatalog.swift */; };
-		0D1203962DEE344E00E7B37D /* Room1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203802DEE344E00E7B37D /* Room1.swift */; };
-		0D1203972DEE344E00E7B37D /* Room2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203812DEE344E00E7B37D /* Room2.swift */; };
-		0D1203982DEE344E00E7B37D /* Room3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203822DEE344E00E7B37D /* Room3.swift */; };
-		0D1203992DEE344E00E7B37D /* Room4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203832DEE344E00E7B37D /* Room4.swift */; };
-		0D12039A2DEE344E00E7B37D /* Room5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203842DEE344E00E7B37D /* Room5.swift */; };
-		0D12039B2DEE344E00E7B37D /* Room6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203852DEE344E00E7B37D /* Room6.swift */; };
-		0D12039C2DEE344E00E7B37D /* Room7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203862DEE344E00E7B37D /* Room7.swift */; };
-		0D12039D2DEE344E00E7B37D /* Room8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203872DEE344E00E7B37D /* Room8.swift */; };
-		0D12039E2DEE344E00E7B37D /* Room9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203882DEE344E00E7B37D /* Room9.swift */; };
-		0D12039F2DEE344E00E7B37D /* Room10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203892DEE344E00E7B37D /* Room10.swift */; };
-		0D1203A02DEE344E00E7B37D /* Room11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12038A2DEE344E00E7B37D /* Room11.swift */; };
-		0D1203A12DEE344E00E7B37D /* Room12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12038B2DEE344E00E7B37D /* Room12.swift */; };
-		0D1203A22DEE344E00E7B37D /* Room13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12038C2DEE344E00E7B37D /* Room13.swift */; };
-		0D1203A32DEE344E00E7B37D /* Room113.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12038E2DEE344E00E7B37D /* Room113.swift */; };
+		0D1203A32DEE344E00E7B37D /* Room1_13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D12038E2DEE344E00E7B37D /* Room1_13.swift */; };
 		0D1203A42DEE344E00E7B37D /* ABLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203922DEE344E00E7B37D /* ABLow.swift */; };
 		0D1203A52DEE344E00E7B37D /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203932DEE344E00E7B37D /* Other.swift */; };
 		0D1203A62DEE344E00E7B37D /* SchoolBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203942DEE344E00E7B37D /* SchoolBlock.swift */; };
+		0D4870B62DEE687D00DFE143 /* Houses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870B52DEE687D00DFE143 /* Houses.swift */; };
+		0D4870B82DEE790C00DFE143 /* MiscABLow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870B72DEE790C00DFE143 /* MiscABLow.swift */; };
+		0D4870BC2DEF245700DFE143 /* ABUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870BB2DEF245700DFE143 /* ABUp.swift */; };
+		0D4870BD2DEF245700DFE143 /* Room20_37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870B92DEF245700DFE143 /* Room20_37.swift */; };
+		0D4870BE2DEF245700DFE143 /* MiscABUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870BA2DEF245700DFE143 /* MiscABUp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,23 +29,15 @@
 		0D1203412DEE257000E7B37D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D1203422DEE257000E7B37D /* SafeAreaExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExampleApp.swift; sourceTree = "<group>"; };
 		0D12034D2DEE26F800E7B37D /* MasterCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterCatalog.swift; sourceTree = "<group>"; };
-		0D1203802DEE344E00E7B37D /* Room1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room1.swift; sourceTree = "<group>"; };
-		0D1203812DEE344E00E7B37D /* Room2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room2.swift; sourceTree = "<group>"; };
-		0D1203822DEE344E00E7B37D /* Room3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room3.swift; sourceTree = "<group>"; };
-		0D1203832DEE344E00E7B37D /* Room4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room4.swift; sourceTree = "<group>"; };
-		0D1203842DEE344E00E7B37D /* Room5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room5.swift; sourceTree = "<group>"; };
-		0D1203852DEE344E00E7B37D /* Room6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room6.swift; sourceTree = "<group>"; };
-		0D1203862DEE344E00E7B37D /* Room7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room7.swift; sourceTree = "<group>"; };
-		0D1203872DEE344E00E7B37D /* Room8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room8.swift; sourceTree = "<group>"; };
-		0D1203882DEE344E00E7B37D /* Room9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room9.swift; sourceTree = "<group>"; };
-		0D1203892DEE344E00E7B37D /* Room10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room10.swift; sourceTree = "<group>"; };
-		0D12038A2DEE344E00E7B37D /* Room11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room11.swift; sourceTree = "<group>"; };
-		0D12038B2DEE344E00E7B37D /* Room12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room12.swift; sourceTree = "<group>"; };
-		0D12038C2DEE344E00E7B37D /* Room13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room13.swift; sourceTree = "<group>"; };
-		0D12038E2DEE344E00E7B37D /* Room113.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room113.swift; sourceTree = "<group>"; };
+		0D12038E2DEE344E00E7B37D /* Room1_13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room1_13.swift; sourceTree = "<group>"; };
 		0D1203922DEE344E00E7B37D /* ABLow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABLow.swift; sourceTree = "<group>"; };
 		0D1203932DEE344E00E7B37D /* Other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
 		0D1203942DEE344E00E7B37D /* SchoolBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolBlock.swift; sourceTree = "<group>"; };
+		0D4870B52DEE687D00DFE143 /* Houses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Houses.swift; sourceTree = "<group>"; };
+		0D4870B72DEE790C00DFE143 /* MiscABLow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscABLow.swift; sourceTree = "<group>"; };
+		0D4870B92DEF245700DFE143 /* Room20_37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room20_37.swift; sourceTree = "<group>"; };
+		0D4870BA2DEF245700DFE143 /* MiscABUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscABUp.swift; sourceTree = "<group>"; };
+		0D4870BB2DEF245700DFE143 /* ABUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABUp.swift; sourceTree = "<group>"; };
 		81DE690F2DD385B800315C5A /* SafeAreaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeAreaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,31 +89,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		0D12038D2DEE344E00E7B37D /* Rooms */ = {
-			isa = PBXGroup;
-			children = (
-				0D1203802DEE344E00E7B37D /* Room1.swift */,
-				0D1203812DEE344E00E7B37D /* Room2.swift */,
-				0D1203822DEE344E00E7B37D /* Room3.swift */,
-				0D1203832DEE344E00E7B37D /* Room4.swift */,
-				0D1203842DEE344E00E7B37D /* Room5.swift */,
-				0D1203852DEE344E00E7B37D /* Room6.swift */,
-				0D1203862DEE344E00E7B37D /* Room7.swift */,
-				0D1203872DEE344E00E7B37D /* Room8.swift */,
-				0D1203882DEE344E00E7B37D /* Room9.swift */,
-				0D1203892DEE344E00E7B37D /* Room10.swift */,
-				0D12038A2DEE344E00E7B37D /* Room11.swift */,
-				0D12038B2DEE344E00E7B37D /* Room12.swift */,
-				0D12038C2DEE344E00E7B37D /* Room13.swift */,
-			);
-			path = Rooms;
-			sourceTree = "<group>";
-		};
 		0D12038F2DEE344E00E7B37D /* ABLow */ = {
 			isa = PBXGroup;
 			children = (
-				0D12038D2DEE344E00E7B37D /* Rooms */,
-				0D12038E2DEE344E00E7B37D /* Room113.swift */,
+				0D12038E2DEE344E00E7B37D /* Room1_13.swift */,
+				0D4870B72DEE790C00DFE143 /* MiscABLow.swift */,
+				0D1203922DEE344E00E7B37D /* ABLow.swift */,
 			);
 			path = ABLow;
 			sourceTree = "<group>";
@@ -137,6 +102,9 @@
 		0D1203902DEE344E00E7B37D /* ABUp */ = {
 			isa = PBXGroup;
 			children = (
+				0D4870B92DEF245700DFE143 /* Room20_37.swift */,
+				0D4870BA2DEF245700DFE143 /* MiscABUp.swift */,
+				0D4870BB2DEF245700DFE143 /* ABUp.swift */,
 			);
 			path = ABUp;
 			sourceTree = "<group>";
@@ -144,8 +112,8 @@
 		0D1203912DEE344E00E7B37D /* RoomCatalog */ = {
 			isa = PBXGroup;
 			children = (
-				0D12038F2DEE344E00E7B37D /* ABLow */,
 				0D1203902DEE344E00E7B37D /* ABUp */,
+				0D12038F2DEE344E00E7B37D /* ABLow */,
 			);
 			path = RoomCatalog;
 			sourceTree = "<group>";
@@ -154,9 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				0D1203912DEE344E00E7B37D /* RoomCatalog */,
-				0D1203922DEE344E00E7B37D /* ABLow.swift */,
 				0D1203932DEE344E00E7B37D /* Other.swift */,
 				0D1203942DEE344E00E7B37D /* SchoolBlock.swift */,
+				0D4870B52DEE687D00DFE143 /* Houses.swift */,
 			);
 			path = SectionCatalog;
 			sourceTree = "<group>";
@@ -252,20 +220,12 @@
 			files = (
 				0D1203452DEE257000E7B37D /* ContentView.swift in Sources */,
 				0D12034E2DEE26F800E7B37D /* MasterCatalog.swift in Sources */,
-				0D1203962DEE344E00E7B37D /* Room1.swift in Sources */,
-				0D1203972DEE344E00E7B37D /* Room2.swift in Sources */,
-				0D1203982DEE344E00E7B37D /* Room3.swift in Sources */,
-				0D1203992DEE344E00E7B37D /* Room4.swift in Sources */,
-				0D12039A2DEE344E00E7B37D /* Room5.swift in Sources */,
-				0D12039B2DEE344E00E7B37D /* Room6.swift in Sources */,
-				0D12039C2DEE344E00E7B37D /* Room7.swift in Sources */,
-				0D12039D2DEE344E00E7B37D /* Room8.swift in Sources */,
-				0D12039E2DEE344E00E7B37D /* Room9.swift in Sources */,
-				0D12039F2DEE344E00E7B37D /* Room10.swift in Sources */,
-				0D1203A02DEE344E00E7B37D /* Room11.swift in Sources */,
-				0D1203A12DEE344E00E7B37D /* Room12.swift in Sources */,
-				0D1203A22DEE344E00E7B37D /* Room13.swift in Sources */,
-				0D1203A32DEE344E00E7B37D /* Room113.swift in Sources */,
+				0D4870B62DEE687D00DFE143 /* Houses.swift in Sources */,
+				0D4870B82DEE790C00DFE143 /* MiscABLow.swift in Sources */,
+				0D4870BC2DEF245700DFE143 /* ABUp.swift in Sources */,
+				0D4870BD2DEF245700DFE143 /* Room20_37.swift in Sources */,
+				0D4870BE2DEF245700DFE143 /* MiscABUp.swift in Sources */,
+				0D1203A32DEE344E00E7B37D /* Room1_13.swift in Sources */,
 				0D1203A42DEE344E00E7B37D /* ABLow.swift in Sources */,
 				0D1203A52DEE344E00E7B37D /* Other.swift in Sources */,
 				0D1203A62DEE344E00E7B37D /* SchoolBlock.swift in Sources */,

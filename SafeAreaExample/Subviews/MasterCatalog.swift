@@ -16,7 +16,7 @@ struct MasterCatalog: View {
                 VStack{
                     Text("Where to?")
                         .font(.largeTitle)
-                        .colorInvert()
+                        .foregroundStyle(.white)
                     NavigationLink {
                         SchoolBlock()
                     } label: {

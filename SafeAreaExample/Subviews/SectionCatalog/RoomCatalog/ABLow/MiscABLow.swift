@@ -17,12 +17,10 @@ struct MiscABLow: View {
                 VStack{
                     Text("Where to?")
                         .font(.largeTitle)
-                        .colorInvert()
+                        .foregroundStyle(.white)
                     Image("Misc\(misc)")
                         .resizable()
                         .scaledToFit()
-                    Divider()
-                        .colorInvert()
                     Picker("Room", selection: $misc) {
                         Label(" Gymnasium", systemImage: "figure.volleyball").tag(1)
                         Label(" Learning Commons/Library", systemImage: "sofa.fill").tag(2)
@@ -34,7 +32,8 @@ struct MiscABLow: View {
                     .pickerStyle(.menu)
                     .accentColor(.white)
                     Divider()
-                        .colorInvert()
+                        .background(Color.white)
+                        .frame(height: 1)
                     Image("MiscMap\(misc)")
                         .resizable()
                         .scaledToFit()

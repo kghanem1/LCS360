@@ -17,7 +17,7 @@ struct ABUp: View {
                 VStack{
                     Text("Where to?")
                         .font(.largeTitle)
-                        .colorInvert()
+                        .foregroundStyle(.white)
                     Image("ABUp")
                         .resizable()
                         .scaledToFit()

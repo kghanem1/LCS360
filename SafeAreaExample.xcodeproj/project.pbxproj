@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D1203452DEE257000E7B37D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203412DEE257000E7B37D /* ContentView.swift */; };
+		0D1203452DEE257000E7B37D /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203412DEE257000E7B37D /* HomePage.swift */; };
 		0D1203462DEE257000E7B37D /* SafeAreaExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1203422DEE257000E7B37D /* SafeAreaExampleApp.swift */; };
 		0D1203472DEE257000E7B37D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D12033D2DEE257000E7B37D /* Preview Assets.xcassets */; };
 		0D1203482DEE257000E7B37D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D1203402DEE257000E7B37D /* Assets.xcassets */; };
@@ -22,13 +22,13 @@
 		0D4870BD2DEF245700DFE143 /* Room20_37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870B92DEF245700DFE143 /* Room20_37.swift */; };
 		0D4870BE2DEF245700DFE143 /* MiscABUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870BA2DEF245700DFE143 /* MiscABUp.swift */; };
 		0D4870C02DEF811B00DFE143 /* PhotoSphereEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870BF2DEF811900DFE143 /* PhotoSphereEngine.swift */; };
-		0D4870C22DEF813100DFE143 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870C12DEF813100DFE143 /* SwiftUIView.swift */; };
+		0D4870C22DEF813100DFE143 /* PSPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870C12DEF813100DFE143 /* PSPlayground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D12033D2DEE257000E7B37D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0D1203402DEE257000E7B37D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0D1203412DEE257000E7B37D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D1203412DEE257000E7B37D /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		0D1203422DEE257000E7B37D /* SafeAreaExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaExampleApp.swift; sourceTree = "<group>"; };
 		0D12034D2DEE26F800E7B37D /* MasterCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterCatalog.swift; sourceTree = "<group>"; };
 		0D12038E2DEE344E00E7B37D /* Room1_13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room1_13.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		0D4870BA2DEF245700DFE143 /* MiscABUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscABUp.swift; sourceTree = "<group>"; };
 		0D4870BB2DEF245700DFE143 /* ABUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABUp.swift; sourceTree = "<group>"; };
 		0D4870BF2DEF811900DFE143 /* PhotoSphereEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSphereEngine.swift; sourceTree = "<group>"; };
-		0D4870C12DEF813100DFE143 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		0D4870C12DEF813100DFE143 /* PSPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSPlayground.swift; sourceTree = "<group>"; };
 		81DE690F2DD385B800315C5A /* SafeAreaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeAreaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,8 +88,8 @@
 		0D12034A2DEE25B600E7B37D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0D1203412DEE257000E7B37D /* ContentView.swift */,
-				0D4870C12DEF813100DFE143 /* SwiftUIView.swift */,
+				0D1203412DEE257000E7B37D /* HomePage.swift */,
+				0D4870C12DEF813100DFE143 /* PSPlayground.swift */,
 				0D4870BF2DEF811900DFE143 /* PhotoSphereEngine.swift */,
 			);
 			path = Views;
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D1203452DEE257000E7B37D /* ContentView.swift in Sources */,
+				0D1203452DEE257000E7B37D /* HomePage.swift in Sources */,
 				0D12034E2DEE26F800E7B37D /* MasterCatalog.swift in Sources */,
 				0D4870B62DEE687D00DFE143 /* Houses.swift in Sources */,
 				0D4870B82DEE790C00DFE143 /* MiscABLow.swift in Sources */,
@@ -232,7 +232,7 @@
 				0D4870BD2DEF245700DFE143 /* Room20_37.swift in Sources */,
 				0D4870BE2DEF245700DFE143 /* MiscABUp.swift in Sources */,
 				0D1203A32DEE344E00E7B37D /* Room1_13.swift in Sources */,
-				0D4870C22DEF813100DFE143 /* SwiftUIView.swift in Sources */,
+				0D4870C22DEF813100DFE143 /* PSPlayground.swift in Sources */,
 				0D1203A42DEE344E00E7B37D /* ABLow.swift in Sources */,
 				0D1203A52DEE344E00E7B37D /* Other.swift in Sources */,
 				0D4870C02DEF811B00DFE143 /* PhotoSphereEngine.swift in Sources */,
@@ -371,6 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SafeAreaExample/Preview Content\"";
+				DEVELOPMENT_TEAM = A65385G2QP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -399,6 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SafeAreaExample/Preview Content\"";
+				DEVELOPMENT_TEAM = A65385G2QP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

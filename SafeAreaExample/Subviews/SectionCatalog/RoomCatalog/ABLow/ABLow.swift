@@ -17,7 +17,7 @@ struct ABLow: View {
                 VStack{
                     Text("Where to?")
                         .font(.largeTitle)
-                        .colorInvert()
+                        .foregroundStyle(.white)
                     Image("ABLow")
                         .resizable()
                         .scaledToFit()

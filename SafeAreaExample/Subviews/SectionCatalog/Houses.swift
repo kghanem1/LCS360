@@ -37,7 +37,7 @@ struct Houses: View {
     }
     //checks the first piece of data from above's tag interger matches that of misc from the picker
     
-    //AI Helped with the stuff above, however, I understand how it works and can easily explain it.
+    //AI taught me how to do the stuff above, I wrote it, however, I understand how it works and can easily explain it.
     
     
     var body: some View {

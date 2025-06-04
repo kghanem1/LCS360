@@ -24,16 +24,23 @@ struct ABUp: View {
                     NavigationLink {
                         Room20_37()
                     } label: {
-                        Label("Rooms (20-37)", systemImage: "door.left.hand.closed")
-                            .frame(width: 350)
+                        VStack{
+                            Text("\(Image(systemName: "door.left.hand.closed")) Rooms")
+                            Text("(20-37)").font(.caption)
+                        }
+                        .frame(width: 350)
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(.lcsGreen)
                     NavigationLink {
                         MiscABUp()
                     } label: {
-                        Label("Other (Library, Bryan Jones Theatre, Upper Hadden, and more)", systemImage: "person.circle.fill")
-                            .frame(width: 350)
+                        VStack{
+                            Text("\(Image(systemName: "person.circle.fill")) Other")
+                            Text("Library, Bryan Jones Theatre, Upper Hadden, and more").font(.caption)
+                            
+                        }
+                        .frame(width: 350)
                         
                     }
                     .buttonStyle(.borderedProminent)

@@ -24,8 +24,11 @@ struct ABLow: View {
                     NavigationLink {
                         Room1_13()
                     } label: {
-                        Label("Rooms (1-13)", systemImage: "door.left.hand.closed")
-                            .frame(width: 350)
+                        VStack{
+                            Text("\(Image(systemName: "door.left.hand.closed")) Rooms")
+                            Text("(1-13)").font(.caption)
+                        }
+                        .frame(width: 350)
                         
                     }
                     .buttonStyle(.borderedProminent)
@@ -33,9 +36,12 @@ struct ABLow: View {
                     NavigationLink {
                         MiscABLow()
                     } label: {
-                        Label("Other (Gym, SLC, OE Kitchen, and more)", systemImage: "person.circle.fill")
-                            .frame(width: 350)
-                        
+                        VStack{
+                            Text("\(Image(systemName: "person.circle.fill")) Other")
+                            Text("Gym, SLC, OE Kitchen, and more").font(.caption)
+                            
+                        }
+                        .frame(width: 350)
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(.lcsGreen)

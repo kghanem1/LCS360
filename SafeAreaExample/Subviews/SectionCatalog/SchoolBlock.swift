@@ -19,6 +19,7 @@ struct SchoolBlock: View {
                         Image("LCSBlock")
                             .resizable()
                             .scaledToFit()
+                            .frame(maxWidth: .infinity, alignment: .top)
                             .ignoresSafeArea()
                         LinearGradient(colors: [.clear, .black], startPoint: .center, endPoint: .top)
                             .ignoresSafeArea()
@@ -30,8 +31,11 @@ struct SchoolBlock: View {
                     NavigationLink {
                         ABLow()
                     } label: {
-                        Label("Academic Buildings - Lower Level - Room 1-13, Gym, Outdoor Courtyard, Lower Hadden Hall, SLC, OE Kitchen", systemImage: "mappin.and.ellipse.circle")
-                            .frame(width: 350)
+                        VStack{
+                            Text("\(Image(systemName: "mappin.and.ellipse.circle")) Lower Level")
+                            Text("Room 1-13, Gym, Outdoor Courtyard, Lower Hadden Hall, SLC, OE Kitchen").font(.caption)
+                        }
+                        .frame(width: 350)
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(.lcsGreen)
@@ -39,8 +43,11 @@ struct SchoolBlock: View {
                     NavigationLink {
                         ABUp()
                     } label: {
-                        Label("Academic Buildings - Upper Level - Room 20-37, Bryan Jones Theatre, Learning Commons/Library, Upper Hadden Hall", systemImage: "mappin.and.ellipse.circle")
-                            .frame(width: 350)
+                        VStack{
+                            Text("\(Image(systemName: "mappin.and.ellipse.circle")) Upper Level")
+                            Text("Room 20-37, Bryan Jones Theatre, Learning Commons/Library, Upper Hadden Hall").font(.caption)
+                        }
+                        .frame(width: 350)
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(.lcsGreen)

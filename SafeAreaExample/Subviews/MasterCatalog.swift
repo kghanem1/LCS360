@@ -20,9 +20,13 @@ struct MasterCatalog: View {
                     NavigationLink {
                         SchoolBlock()
                     } label: {
-                        Label("School Block", systemImage: "building.columns.fill")
-                            .frame(width: 200)
                         
+                        VStack{
+                            Text("\(Image(systemName: "building.columns.fill")) School Block")
+                            Text("Room 1-37, Gym, Library, Hadden Hall, Theatre").font(.caption)
+                        }
+                        .frame(width: 250)
+
                     }
                     .buttonStyle(.borderedProminent)
                     .tint(.lcsGreen)
@@ -30,8 +34,11 @@ struct MasterCatalog: View {
                     NavigationLink {
                         Houses()
                     } label: {
-                        Label("Houses", systemImage: "house.fill")
-                            .frame(width: 200)
+                        VStack{
+                            Text("\(Image(systemName: "house.fill")) Houses")
+                            Text("Cooper, Colebrook, Matthews, Ondaatje, Uplands, Ross, Parent, Ryder, Rashleigh, Memorial, Moodie").font(.caption)
+                        }
+                        .frame(width: 250)
                         
                     }
                     .buttonStyle(.borderedProminent)
@@ -40,8 +47,14 @@ struct MasterCatalog: View {
                     NavigationLink {
                         Other()
                     } label: {
-                        Label("Other - Chapel, Fields, Health Centre, etc. ", systemImage: "mappin.circle.fill")
-                            .frame(width: 200)
+                        
+                        VStack {
+                            Text("\(Image(systemName: "mappin.circle.fill")) Other (UNFINISHED 🚧)")
+                            Text("Chapel, Waterfront, Health Centre, etc. ")
+                                .font(.caption)
+                        }
+                        .frame(width: 250)
+                        
                         
                     }
                     .buttonStyle(.borderedProminent)

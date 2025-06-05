@@ -23,23 +23,25 @@ struct ContentView: View {
                 LinearGradient(colors: [.clear, .black], startPoint: .top, endPoint: .bottom)
                     .ignoresSafeArea()
                     .overlay(alignment: .center) {
-                        VStack {
-                            
-                            Image("LCS-logo")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 150)
-                            
-                            NavigationLink {
-                                MasterCatalog()
-                            } label: {
-                                Label("Map", systemImage: "map")
-                                    .frame(width: 200)
-
+                        ScrollView{
+                            VStack {
+                                
+                                Image("LCS-logo")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 150)
+                                
+                                NavigationLink {
+                                    MasterCatalog()
+                                } label: {
+                                    Label("Where to?", systemImage: "signpost.right.fill")
+                                        .frame(width: 200)
+                                    
+                                }
+                                
+                                .buttonStyle(.borderedProminent)
+                                .tint(.lcsGreen)
                             }
-                            .buttonStyle(.borderedProminent)
-                            .tint(.lcsGreen)
-
                             
 
                             Spacer()

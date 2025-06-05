@@ -23,6 +23,7 @@
 		0D4870BE2DEF245700DFE143 /* MiscABUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870BA2DEF245700DFE143 /* MiscABUp.swift */; };
 		0D4870C02DEF811B00DFE143 /* PhotoSphereEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870BF2DEF811900DFE143 /* PhotoSphereEngine.swift */; };
 		0D4870C22DEF813100DFE143 /* PSPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870C12DEF813100DFE143 /* PSPlayground.swift */; };
+		0DE411D22DF1FAFD00E6BCF9 /* RawMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE411D12DF1FAFD00E6BCF9 /* RawMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,8 +43,17 @@
 		0D4870BB2DEF245700DFE143 /* ABUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABUp.swift; sourceTree = "<group>"; };
 		0D4870BF2DEF811900DFE143 /* PhotoSphereEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSphereEngine.swift; sourceTree = "<group>"; };
 		0D4870C12DEF813100DFE143 /* PSPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSPlayground.swift; sourceTree = "<group>"; };
+		0DE411D12DF1FAFD00E6BCF9 /* RawMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawMap.swift; sourceTree = "<group>"; };
 		81DE690F2DD385B800315C5A /* SafeAreaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeAreaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0DE411D32DF1FD0300E6BCF9 /* Maps */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Maps;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		81DE690C2DD385B800315C5A /* Frameworks */ = {
@@ -80,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				0D12034D2DEE26F800E7B37D /* MasterCatalog.swift */,
+				0DE411D12DF1FAFD00E6BCF9 /* RawMap.swift */,
 				0D1203952DEE344E00E7B37D /* SectionCatalog */,
 			);
 			path = Subviews;
@@ -127,6 +138,7 @@
 		0D1203952DEE344E00E7B37D /* SectionCatalog */ = {
 			isa = PBXGroup;
 			children = (
+				0DE411D32DF1FD0300E6BCF9 /* Maps */,
 				0D1203912DEE344E00E7B37D /* RoomCatalog */,
 				0D1203932DEE344E00E7B37D /* Other.swift */,
 				0D1203942DEE344E00E7B37D /* SchoolBlock.swift */,
@@ -165,6 +177,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0DE411D32DF1FD0300E6BCF9 /* Maps */,
 			);
 			name = SafeAreaExample;
 			packageProductDependencies = (
@@ -237,6 +252,7 @@
 				0D1203A52DEE344E00E7B37D /* Other.swift in Sources */,
 				0D4870C02DEF811B00DFE143 /* PhotoSphereEngine.swift in Sources */,
 				0D1203A62DEE344E00E7B37D /* SchoolBlock.swift in Sources */,
+				0DE411D22DF1FAFD00E6BCF9 /* RawMap.swift in Sources */,
 				0D1203462DEE257000E7B37D /* SafeAreaExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

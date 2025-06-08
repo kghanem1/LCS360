@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
         NavigationStack {
             ZStack {
 
@@ -38,7 +37,24 @@ struct ContentView: View {
                                         .frame(width: 200)
                                     
                                 }
-                                
+                                .buttonStyle(.borderedProminent)
+                                .tint(.lcsGreen)
+                                NavigationLink {
+                                    RawMap()
+                                } label: {
+                                    Label("Maps", systemImage: "map.fill")
+                                        .frame(width: 200)
+                                    
+                                }
+                                .buttonStyle(.borderedProminent)
+                                .tint(.lcsGreen)
+                                NavigationLink {
+                                    About()
+                                } label: {
+                                    Label("About", systemImage: "info.circle")
+                                        .frame(width: 200)
+                                    
+                                }
                                 .buttonStyle(.borderedProminent)
                                 .tint(.lcsGreen)
                             }
@@ -49,13 +65,9 @@ struct ContentView: View {
                         }
                     }
                     .padding(.top, 300)
-
-
-                
             }
 
         }
-        
     }
 }
 

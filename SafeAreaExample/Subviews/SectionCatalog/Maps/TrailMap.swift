@@ -9,7 +9,14 @@ import SwiftUI
 
 struct TrailMap: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image("FullMapWithTrails")
+                .resizable()
+                .rotationEffect(.degrees(90))
+                .scaledToFit()
+                .frame(width: 630, height: 900)
+        }
+        .background(Color.lcsGreenTint)
     }
 }
 

@@ -10,8 +10,16 @@ import SwiftUI
 
 struct ABLowMap: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image("ABLow")
+                .resizable()
+                .rotationEffect(.degrees(90))
+                .scaledToFit()
+                .frame(width: 630, height: 900)
+        }
+        .background(Color.lcsGreenTint)
     }
+
 }
 
 #Preview {

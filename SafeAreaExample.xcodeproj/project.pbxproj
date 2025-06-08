@@ -23,7 +23,12 @@
 		0D4870BE2DEF245700DFE143 /* MiscABUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870BA2DEF245700DFE143 /* MiscABUp.swift */; };
 		0D4870C02DEF811B00DFE143 /* PhotoSphereEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870BF2DEF811900DFE143 /* PhotoSphereEngine.swift */; };
 		0D4870C22DEF813100DFE143 /* PSPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4870C12DEF813100DFE143 /* PSPlayground.swift */; };
+		0DE0DB7C2DF3B0D100A7D97C /* ABLowMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0DB772DF3B0D100A7D97C /* ABLowMap.swift */; };
+		0DE0DB7D2DF3B0D100A7D97C /* ABUpMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0DB782DF3B0D100A7D97C /* ABUpMap.swift */; };
+		0DE0DB7E2DF3B0D100A7D97C /* CampusMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0DB792DF3B0D100A7D97C /* CampusMap.swift */; };
+		0DE0DB7F2DF3B0D100A7D97C /* TrailMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE0DB7A2DF3B0D100A7D97C /* TrailMap.swift */; };
 		0DE411D22DF1FAFD00E6BCF9 /* RawMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE411D12DF1FAFD00E6BCF9 /* RawMap.swift */; };
+		0DE428AD2DF3BB640038E925 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE428AC2DF3BB640038E925 /* About.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,17 +48,14 @@
 		0D4870BB2DEF245700DFE143 /* ABUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABUp.swift; sourceTree = "<group>"; };
 		0D4870BF2DEF811900DFE143 /* PhotoSphereEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSphereEngine.swift; sourceTree = "<group>"; };
 		0D4870C12DEF813100DFE143 /* PSPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSPlayground.swift; sourceTree = "<group>"; };
+		0DE0DB772DF3B0D100A7D97C /* ABLowMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABLowMap.swift; sourceTree = "<group>"; };
+		0DE0DB782DF3B0D100A7D97C /* ABUpMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABUpMap.swift; sourceTree = "<group>"; };
+		0DE0DB792DF3B0D100A7D97C /* CampusMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusMap.swift; sourceTree = "<group>"; };
+		0DE0DB7A2DF3B0D100A7D97C /* TrailMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailMap.swift; sourceTree = "<group>"; };
 		0DE411D12DF1FAFD00E6BCF9 /* RawMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawMap.swift; sourceTree = "<group>"; };
+		0DE428AC2DF3BB640038E925 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		81DE690F2DD385B800315C5A /* SafeAreaExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafeAreaExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		0DE411D32DF1FD0300E6BCF9 /* Maps */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Maps;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		81DE690C2DD385B800315C5A /* Frameworks */ = {
@@ -91,6 +93,7 @@
 			children = (
 				0D12034D2DEE26F800E7B37D /* MasterCatalog.swift */,
 				0DE411D12DF1FAFD00E6BCF9 /* RawMap.swift */,
+				0DE428AC2DF3BB640038E925 /* About.swift */,
 				0D1203952DEE344E00E7B37D /* SectionCatalog */,
 			);
 			path = Subviews;
@@ -138,13 +141,24 @@
 		0D1203952DEE344E00E7B37D /* SectionCatalog */ = {
 			isa = PBXGroup;
 			children = (
-				0DE411D32DF1FD0300E6BCF9 /* Maps */,
+				0DE0DB7B2DF3B0D100A7D97C /* Maps */,
 				0D1203912DEE344E00E7B37D /* RoomCatalog */,
 				0D1203932DEE344E00E7B37D /* Other.swift */,
 				0D1203942DEE344E00E7B37D /* SchoolBlock.swift */,
 				0D4870B52DEE687D00DFE143 /* Houses.swift */,
 			);
 			path = SectionCatalog;
+			sourceTree = "<group>";
+		};
+		0DE0DB7B2DF3B0D100A7D97C /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				0DE0DB772DF3B0D100A7D97C /* ABLowMap.swift */,
+				0DE0DB782DF3B0D100A7D97C /* ABUpMap.swift */,
+				0DE0DB792DF3B0D100A7D97C /* CampusMap.swift */,
+				0DE0DB7A2DF3B0D100A7D97C /* TrailMap.swift */,
+			);
+			path = Maps;
 			sourceTree = "<group>";
 		};
 		81DE69062DD385B800315C5A = {
@@ -177,9 +191,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				0DE411D32DF1FD0300E6BCF9 /* Maps */,
 			);
 			name = SafeAreaExample;
 			packageProductDependencies = (
@@ -244,6 +255,7 @@
 				0D4870B62DEE687D00DFE143 /* Houses.swift in Sources */,
 				0D4870B82DEE790C00DFE143 /* MiscABLow.swift in Sources */,
 				0D4870BC2DEF245700DFE143 /* ABUp.swift in Sources */,
+				0DE428AD2DF3BB640038E925 /* About.swift in Sources */,
 				0D4870BD2DEF245700DFE143 /* Room20_37.swift in Sources */,
 				0D4870BE2DEF245700DFE143 /* MiscABUp.swift in Sources */,
 				0D1203A32DEE344E00E7B37D /* Room1_13.swift in Sources */,
@@ -251,6 +263,10 @@
 				0D1203A42DEE344E00E7B37D /* ABLow.swift in Sources */,
 				0D1203A52DEE344E00E7B37D /* Other.swift in Sources */,
 				0D4870C02DEF811B00DFE143 /* PhotoSphereEngine.swift in Sources */,
+				0DE0DB7C2DF3B0D100A7D97C /* ABLowMap.swift in Sources */,
+				0DE0DB7D2DF3B0D100A7D97C /* ABUpMap.swift in Sources */,
+				0DE0DB7E2DF3B0D100A7D97C /* CampusMap.swift in Sources */,
+				0DE0DB7F2DF3B0D100A7D97C /* TrailMap.swift in Sources */,
 				0D1203A62DEE344E00E7B37D /* SchoolBlock.swift in Sources */,
 				0DE411D22DF1FAFD00E6BCF9 /* RawMap.swift in Sources */,
 				0D1203462DEE257000E7B37D /* SafeAreaExampleApp.swift in Sources */,

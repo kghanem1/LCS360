@@ -10,7 +10,15 @@ import SwiftUI
 
 struct ABUpMap: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image("ABUp")
+                .resizable()
+                .rotationEffect(.degrees(90))
+                .scaledToFit()
+                .frame(width: 600, height: 900)
+        }
+        .background(Color.lcsGreenTint)
+        .ignoresSafeArea()
     }
 }
 

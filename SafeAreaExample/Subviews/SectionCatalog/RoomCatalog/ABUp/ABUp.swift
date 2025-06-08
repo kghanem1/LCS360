@@ -18,9 +18,13 @@ struct ABUp: View {
                     Text("Where to?")
                         .font(.largeTitle)
                         .foregroundStyle(.white)
-                    Image("ABUp")
-                        .resizable()
-                        .scaledToFit()
+                    NavigationLink(destination: ABUpMap()){
+                        VStack{
+                            Image("ABUp")
+                                .resizable()
+                                .scaledToFit()
+                        }
+                    }
                     NavigationLink {
                         Room20_37()
                     } label: {

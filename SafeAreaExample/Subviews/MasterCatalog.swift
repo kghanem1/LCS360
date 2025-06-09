@@ -49,7 +49,7 @@ struct MasterCatalog: View {
                     } label: {
                         
                         VStack {
-                            Text("\(Image(systemName: "mappin.circle.fill")) Other (UNFINISHED 🚧)")
+                            Text("\(Image(systemName: "mappin.circle.fill")) Other")
                             Text("Chapel, Waterfront, Health Centre, etc. ")
                                 .font(.caption)
                         }

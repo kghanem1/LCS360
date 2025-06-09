@@ -28,7 +28,7 @@ struct About: View {
                     .font(.largeTitle)
                     .foregroundStyle(.white)
             Spacer()
-            Text("LCS360 is an app developed by a computer science student, Khalid Ghanem '27. LCS360 aims to assist people to get around the school, and it's numerous classrooms and areas.").foregroundStyle(.white).font(.title3)
+            Text("LCS360 is an app developed by a computer science student, Khalid Ghanem '27. LCS360 aims to assist people to get around the school, and it's numerous classrooms and areas.").foregroundStyle(.white).font(.title3).padding()
                 Divider()
                 .background(.white)
                 .frame(height: 2)
@@ -36,9 +36,8 @@ struct About: View {
                 .font(.title2)
                 .foregroundStyle(.white)
             Spacer()
-            Text("\"Thank you so much for using my app! I had so much fun creating this for my digital technology course. If you have any suggestions or want to add more features, please let me know!\"").foregroundStyle(.white).font(.title3).italic()
+            Text("\"Thank you so much for using my app! I had so much fun creating this for my digital technology course. If you have any suggestions or want to add more features, please let me know!\"").foregroundStyle(.white).font(.title3).italic().padding()
             }
-        .safeAreaPadding()
         .background(Color.lcsGreenTint)
         }
     }

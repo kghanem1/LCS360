@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Room1_13: View {
-    @State private var room = 1
+    @State private var room = 5
     var body: some View {
             NavigationStack{
                 ZStack{

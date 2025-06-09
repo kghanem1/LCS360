@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Houses: View {
-    @State private var misc = 10
+    @State private var misc = 12
     
     struct House {
         let name: String
@@ -27,7 +27,8 @@ struct Houses: View {
            House(name: "Rashleigh", tag: 17, mapURL: "https://maps.app.goo.gl/7Sgwef1TfLBjbWgE6"),
            House(name: "Ryder", tag: 18, mapURL: "https://maps.app.goo.gl/M6TRg18hPo67GSeZ6"),
            House(name: "Ross", tag: 19, mapURL: "https://maps.app.goo.gl/n9Z6KZsRHKz3K2bR8"),
-           House(name: "Uplands", tag: 20, mapURL: "https://maps.app.goo.gl/z2Dj5Aoa5wyuxS1b8")
+           House(name: "Uplands", tag: 20, mapURL: "https://maps.app.goo.gl/z2Dj5Aoa5wyuxS1b8"),
+           House(name: "Grove", tag: 21, mapURL: "https://maps.app.goo.gl/zV2RbQMiLi2jTspy9")
        ]
     
     //lists a house, it's name, it's tag, and a link corresponding to it on gmaps
@@ -67,6 +68,7 @@ struct Houses: View {
                             Label(" Matthews", systemImage: "house.fill").tag(12)
                             Label(" Memorial", systemImage: "house.fill").tag(13)
                             Label(" Moodie", systemImage: "house.fill").tag(14)
+                            Label(" Grove", systemImage: "house.fill").tag(21)
                             Label(" Ondaatje", systemImage: "house.fill").tag(15)
                             Label(" Parent", systemImage: "house.fill").tag(16)
                             Label(" Rashleigh", systemImage: "house.fill").tag(17)

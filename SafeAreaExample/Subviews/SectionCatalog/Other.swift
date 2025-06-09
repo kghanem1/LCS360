@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct Other: View {
-    @State private var other = 1
+    @State private var other = 5
     var body: some View {
         NavigationStack{
             ZStack{
@@ -19,13 +19,19 @@ struct Other: View {
                     Text("Where to?")
                         .font(.largeTitle)
                         .foregroundStyle(.white)
-                    Image("Other\(other)")
-                        .resizable()
-                        .scaledToFit()
+                    PhotoSphereView(fileName: "OtherPS\(other)")
+                        .edgesIgnoringSafeArea(.all)
+                        .clipShape(RoundedRectangle(cornerRadius: 12))
+                        .overlay(RoundedRectangle(cornerRadius: 12)            .stroke(Color.white, lineWidth: 2).opacity(0.6))
+                    Label("Use fingers to look around!", systemImage: "hand.point.up.left.fill")
+                        .font(.footnote)
+                        .opacity(0.6)
+                        .foregroundStyle(.white)
                     Picker("Room", selection: $other) {
                         Label(" Waterfront", systemImage: "sailboat.fill").tag(1)
                         Label(" Dining Hall", systemImage: "fork.knife").tag(2)
                         Label(" Chapel", systemImage: "building.columns.fill").tag(3)
+                        Label(" Reception/Admissions", systemImage: "pencil").tag(33)
                         Label("OE Outpost/Sugar Shack", systemImage: "leaf.fill").tag(4)
                         Label(" Health Centre", systemImage: "bandage.fill").tag(5)
                         Label(" School Stores", systemImage: "storefront.fill").tag(12)

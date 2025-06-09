@@ -39,6 +39,7 @@ struct About: View {
             Text("\"Thank you so much for using my app! I had so much fun creating this for my digital technology course. If you have any suggestions or want to add more features, please let me know!\"").foregroundStyle(.white).font(.title3).italic().padding()
             }
         .background(Color.lcsGreenTint)
+        .safeAreaPadding()
         }
     }
 #Preview {

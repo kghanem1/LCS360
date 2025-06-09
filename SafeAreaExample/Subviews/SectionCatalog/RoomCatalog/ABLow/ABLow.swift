@@ -18,9 +18,13 @@ struct ABLow: View {
                     Text("Where to?")
                         .font(.largeTitle)
                         .foregroundStyle(.white)
-                    Image("ABLow")
-                        .resizable()
-                        .scaledToFit()
+                    NavigationLink(destination: ABLowMap()){
+                        VStack{
+                            Image("ABLow")
+                                .resizable()
+                                .scaledToFit()
+                        }
+                    }
                     NavigationLink {
                         Room1_13()
                     } label: {
